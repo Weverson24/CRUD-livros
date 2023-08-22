@@ -1,0 +1,26 @@
+.menu {
+  /* border: 1px solid black; */
+  height: 50px;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.menu .menu-ul {
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0 16px;
+}
+
+.menu .menu-ul li {
+  list-style: none;
+  font-size: 22px;
+}
+
+.menu .menu-ul li a {
+  text-decoration: none;
+}
